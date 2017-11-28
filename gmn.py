@@ -23,7 +23,7 @@ while isPlaying:
 			
 	print('Good job! You guessed my number in ' + str(guessesTaken) + ' guesses!')
 	print('Want to play again? (y|n)')
-	temp = input()
-	temp = str(temp).lower()
+	temp = raw_input()
+	temp = temp.lower()
 	if temp != 'y':
 		isPlaying = False
